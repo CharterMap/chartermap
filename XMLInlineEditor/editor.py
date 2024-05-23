@@ -6,3 +6,5 @@ root.title("XML Inline Editor")
 
 text = tk.Text(root, wrap="word", undo=True)
 text.pack(expand="yes", fill="both")
+
+root.mainloop()
