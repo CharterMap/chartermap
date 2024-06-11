@@ -1,2 +1,5 @@
 <?php
-// Silence is golden.
+require "vendor/autoload.php";
+
+$dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
