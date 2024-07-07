@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php 
     require "../index.php"; 
+    // Get Tiny Cloud API key from the proejct environment variables
+    // This provides access to the Tiny Cloud TinyMCE text editor without needing a local install
     echo "<script src=\"https://cdn.tiny.cloud/1/$_ENV[TINY_CLOUD_API_KEY]/tinymce/7/tinymce.min.js\" referrerpolicy=\"origin\"></script>"
     ?>
     <title>Multilayer Inline Editor for XML</title>
