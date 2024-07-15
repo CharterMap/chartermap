@@ -12,3 +12,8 @@ In-progress design to work as a plugin for any Wordpress site, and ideally CMS-a
 - Apache
 ### Recommended
 - [Composer](https://getcomposer.org/)
+
+
+## Building the server
+
+The XML markup tool directory should have permissions 755
