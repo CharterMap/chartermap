@@ -2,9 +2,16 @@
 <html lang="en" dir="ltr">
 
 <head>
+    <script type="importmap">
+        {
+            "imports": {
+                "lexical": "../node_modules/lexical/Lexical.js"
+            }
+        }
+    </script>
+
     <meta charset="utf-8">
     <title>Multilayer Inline Editor for XML</title>
-    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -12,6 +19,8 @@
     <h1>Multilayer Inline Editor for XML</h1>
 
     <div id="Test"></div>
+    
+    <script type="module" src="js/main.js"></script>
 
 </body>
 
