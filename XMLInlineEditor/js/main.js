@@ -1,4 +1,4 @@
-import {createEditor, EditorState} from "lexical";
+import { createEditor } from "lexical";
 
 // Lexical implementation for editing XML markup with overlapping tags
 
@@ -6,7 +6,7 @@ const config = {
     namespace: "XML Inline Editor",
     theme: {},
     onError: console.error
-}
+};
 
 const editor = createEditor(config);
 

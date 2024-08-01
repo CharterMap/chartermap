@@ -8,8 +8,9 @@ In-progress design to work as a plugin for any Wordpress site, and ideally CMS-a
 
 ### Included
 - [Lexical](https://lexical.dev)
-### Not included - must be built on your server
+### Not included - must be installed on your server
 - Apache
+- Typescript
 ### Recommended
 - [Composer](https://getcomposer.org/)
 
