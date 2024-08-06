@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "lexical": "^0.16.1"
+  },
+  "scripts": {
+    "build": "webpack --mode=development"
+  },
+  "devDependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
